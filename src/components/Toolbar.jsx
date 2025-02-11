@@ -1,5 +1,3 @@
-import React from "react";
-
 const Toolbar = ({ filters, selected, onSelectFilter }) => {
     return (
         <div className="toolbar">

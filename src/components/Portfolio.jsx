@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import Toolbar from "./Toolbar";
 import ProjectList from "./ProjectList";
 import projectsData from "../data";
+import { useState } from "react";
 
 const Portfolio = () => {
     const filters = ["All", "Websites", "Flayers", "Business Cards"];
